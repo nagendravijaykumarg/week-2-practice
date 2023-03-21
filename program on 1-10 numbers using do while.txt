@@ -1,0 +1,11 @@
+1) write a program on 1-10 numbers using do while
+
+begin
+numeric num=1
+do
+{
+print(num)
+num++
+}
+while(num<=10)
+end

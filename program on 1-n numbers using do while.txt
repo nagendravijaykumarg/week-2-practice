@@ -1,0 +1,11 @@
+3) write a program on 1-n numbers using do while
+
+begin
+numeric num=1
+do
+{
+print(num)
+num++
+}
+while(num<=n)
+end

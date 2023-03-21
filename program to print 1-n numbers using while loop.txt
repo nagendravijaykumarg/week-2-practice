@@ -1,0 +1,9 @@
+3)write a program to print 1-n numbers using while loop
+
+begin
+numeric num=1
+while(num<=n)
+{
+print(num)
+}
+end

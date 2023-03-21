@@ -1,0 +1,16 @@
+5) write a program on odd numbers between 1-n using do while
+
+begin
+numeric n,i=1
+print("enter the num value")
+input num
+do
+{
+if(i%2!=0)
+{
+print(i)
+}
+i++
+}
+while(i<=n)
+end

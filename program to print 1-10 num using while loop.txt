@@ -1,0 +1,10 @@
+1)write a program to print 1-10 numbers using while
+
+begin
+numeric num=1
+while(num<=10)
+{
+print(num)
+}
+num++
+end

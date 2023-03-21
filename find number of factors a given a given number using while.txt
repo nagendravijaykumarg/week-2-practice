@@ -1,0 +1,15 @@
+8)write to find number of factors a given a given number using while
+begin
+numeric num,i=1,count=0
+print("enter the num")
+input num
+while(i<=num)
+{
+if(num%i==0)
+{
+print(i)
+count=count+1
+}
+i++
+print(count)
+end

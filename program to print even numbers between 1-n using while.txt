@@ -1,0 +1,12 @@
+4)write a program to print even numbers between 1-n using while
+
+begin
+numeric num=1
+while(num<=n)
+{
+if(num%2==0){
+print(num)
+}
+num++
+}
+end

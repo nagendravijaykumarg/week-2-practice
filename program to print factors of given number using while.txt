@@ -1,0 +1,14 @@
+7) write a program to print factors of given number using while
+
+begin
+numeric num,i=1
+print("enter the num")
+input num
+while(i<=num)
+{
+if(num%i==0)
+{
+print(i)
+}
+i++
+end
