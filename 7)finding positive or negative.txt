@@ -1,0 +1,19 @@
+7)finding positive or negative
+
+import java.util.Scanner;
+class sum{
+public static void main(String[] args)
+{
+Scanner s=new Scanner(System.in);
+int num1=0;
+System.out.println("enter the num1");
+num1=s.nextInt();
+if(num1>0)
+{
+System.out.println("it possitive");
+}
+else
+
+System.out.println("it negative");
+}
+}

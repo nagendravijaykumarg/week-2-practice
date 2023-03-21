@@ -1,0 +1,41 @@
+5)finding grade
+
+import java.util.Scanner;
+class Week1pratice{
+public static void main (String[] args)
+{
+Scanner s=new Scanner(System.in);
+int s1,s2,s3;
+System.out.println("enter the marks");
+s1=s.nextInt();
+System.out.println("enter the marks");
+s2=s.nextInt();
+System.out.println("enter the marks");
+s3=s.nextInt();
+int sum=0;
+int total=0;
+if(s1>90&&s2>80&&s3>50)
+  sum=s1+s2+s3;
+  System.out.println(sum);
+    total=(70*s1/100)+(20*s2/100)+(10*s3/100);
+  System.out.println(total);
+}
+}
+  
+6)finding sum,sub,mul,div 
+
+class Week1pratice{
+  public static void main(String args[])
+    {
+      int num1=10,num2=20,sum,sub,mul,div;
+      sum=num1+num2;
+      sub=num1-num2;
+      mul=num1*num2;
+      div=num1/num2;
+
+      System.out.println(sum);
+      System.out.println(sub);
+      System.out.println(mul);
+      System.out.println(div);
+    }
+}

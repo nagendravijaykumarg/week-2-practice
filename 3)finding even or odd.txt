@@ -1,0 +1,22 @@
+ 3)finding even or odd
+
+import java.util.Scanner;
+class Week1pratice{
+public static void main (String[] args)
+{
+Scanner s=new Scanner(System.in);
+int num=0;
+System.out.println("enter the num");
+num=s.nextInt();
+if(num>0)
+{
+  System.out.println("even");
+  
+}
+  else
+  {
+  System.out.println("odd");
+  
+}
+}
+}
